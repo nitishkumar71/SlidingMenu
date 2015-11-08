@@ -1,0 +1,68 @@
+body{
+	background: grey;
+	overflow: hidden;
+}
+
+.menu{
+	margin: 0;
+	transition: all .5s ease;
+	border: 1px #000000 solid;
+	background-color: #337ab7;
+	overflow: hidden;
+	width: 320px;
+	position: fixed;
+}
+.menu ul{
+	margin: 0;
+	padding: 0; 
+	list-style: none;
+	width : 100%;
+	font-size : 1.5em;
+	overflow-y: auto;
+	padding-bottom: 15px;
+	
+ }
+ .menu ul > li{
+	border-bottom: 1px solid #65cff0;
+ }
+/*.menu.menu-open {
+    -moz-box-shadow: -20px 0px 30px black;
+    -webkit-box-shadow: -20px 0px 30px black;
+    box-shadow: -20px 0px 30px black; 
+}*/
+
+.menu-vertical{
+	max-height: 100%;
+	min-height: 320px;
+	top: 0;
+	z-index: 1000; 
+ }
+ .menu-left{
+	left: -320px;
+ }
+ .menu-left.menu-open {
+    left: 0px;
+}
+ .menu-right{
+	right: -320px;
+	border-left: 1px solid #65cff0;
+ }
+ 
+ .menu-right.menu-open {
+    right: 0px;
+}
+
+/* Push classes applied to the body */
+
+.menu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+ .menu-push-toright{
+	left:320px;
+ }	
+ 
+ .menu-push-toleft{
+	left:-320px;
+ }	
