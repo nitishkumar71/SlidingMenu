@@ -4,7 +4,7 @@ This will help to understand implementation of sliding and pushing menu for angu
 2. https://code.angularjs.org/1.4.7/angular-animate.min.js
 
 Here we have created two menu's <br>
-1. Sliding menu for left and right
+1. Sliding menu for left and right<br>
 2. Push menu for left and right
 
 ### Menu Position (Left or Right)
