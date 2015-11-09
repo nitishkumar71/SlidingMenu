@@ -1,4 +1,4 @@
-This will help to understand implementation of sliding and pushing menu for angular js.
+This will help to understand implementation of sliding and push menu for angular js.
 ##Pre-Requisite:
 1. https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js
 2. https://code.angularjs.org/1.4.7/angular-animate.min.js
