@@ -3,7 +3,7 @@ This will help to understand implementation of sliding and pushing menu for angu
 1. https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js
 2. https://code.angularjs.org/1.4.7/angular-animate.min.js
 
-Here we have created two menu's
+Here we have created two menu's <br>
 1. Sliding menu for left and right
 2. Push menu for left and right
 
